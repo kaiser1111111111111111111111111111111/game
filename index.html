@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Runner Color - Tipo Dino</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Runner Color</h1>
+    <div class="scores">
+      <span>Puntuación: <strong id="score">0</strong></span>
+      <span>Récord: <strong id="highScore">0</strong></span>
+      <span>Nivel: <strong id="level">1</strong></span>
+      
+    </div>
+  </header>
+
+  <main class="game-wrapper">
+    <canvas id="game" width="800" height="300" aria-label="Juego tipo dinosaurio"></canvas>
+    <button id="jumpBtn" class="jump-btn" aria-label="Saltar">Saltar</button>
+  </main>
+
+  <footer class="footer">
+    <small>Controles: Espacio / ↑ / W • Click / Toque • Enter para reiniciar</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
